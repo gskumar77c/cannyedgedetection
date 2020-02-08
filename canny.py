@@ -72,7 +72,7 @@ def calculateMagnituteAndDegree(X, Y):
     return mag, degree ,graddir
 
 
-
+#NMS
 def nonMaximalSupress(image,gdegree):
     width = len(image[0])
     height = len(image)
